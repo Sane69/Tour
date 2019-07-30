@@ -1,0 +1,170 @@
+@media screen and (max-width: 1300px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .gallery {
+    height: 750px;
+    display: block;
+    margin: 0 auto;
+    max-width: max-content;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .text {
+    height: 1500px;
+    margin: 0 auto;
+    max-width: min-content;
+  }
+  .text__answer {
+    display: block;
+    padding: 0 20px 0 20px;
+  }
+  .text__answer p {
+    width: auto;
+  }
+  .text__answer--blockTemp {
+    width: 100%;
+  }
+  .text__answer--blockTemp p {
+    width: auto;
+    padding-right: 20px;
+  }
+  .text__main {
+    padding: 0 20px 0 20px;
+  }
+  .text__main p {
+    width: auto;
+  }
+  .text__beauty {
+    padding: 20px 20px 0 20px;
+  }
+  .text__beauty p {
+    width: auto;
+  }
+  .footer {
+    padding: 0 20px 0 20px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .tour__block {
+    top: 2%;
+  }
+  .tour__position {
+    top: 2%;
+    left: 7.5%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 20px;
+    height: 140px;
+  }
+  .header__main {
+    display: block;
+    margin: 0 auto;
+    max-width: max-content;
+  }
+  .header__main--logo {
+    margin-bottom: 10px;
+  }
+  .header__main--logo span {
+    display: none;
+  }
+  .header__main--social {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tour {
+    height: 1100px;
+  }
+  .tour__position {
+    left: 9%;
+  }
+  .tour__info--days {
+    display: none;
+  }
+  .tour__info--name {
+    display: block;
+    padding-left: 20px;
+  }
+  .tour__info--name h4 {
+    font-size: 30px;
+    width: 255px;
+  }
+  .tour__info--nameImg {
+    margin: 0 0 20px 0;
+  }
+  .tour__info--rating {
+    padding-left: 20px;
+    display: block;
+  }
+  .text {
+    height: 2150px;
+  }
+  .text__formul img {
+    display: none;
+  }
+  .text__answer--blockTemp {
+    height: 255px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tour__position {
+    left: 11%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .gallery {
+    padding: 0 20px 0 20px;
+  }
+  .gallery__way img {
+    width: 100%;
+  }
+  .gallery__way--info span {
+    font-size: 40px;
+  }
+  .gallery__way--info h4 {
+    border-bottom: 0;
+  }
+  .gallery__god--info h4 {
+    border-bottom: 0;
+  }
+  .gallery__god img {
+    width: 100%;
+  }
+  .footer {
+    height: 130px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tour__position {
+    left: 13%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tour__position {
+    left: 15%;
+  }
+  .text__main h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .text__answer--whrNumb {
+    font-size: 80px;
+  }
+  .text__answer--blockTemp {
+    height: 320px;
+  }
+  .text {
+    height: 2800px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .tour__position {
+    left: 17%;
+  }
+}
